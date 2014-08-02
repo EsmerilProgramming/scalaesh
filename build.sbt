@@ -1,3 +1,6 @@
+import com.typesafe.sbt.SbtNativePackager._
+import NativePackagerKeys._
+
 name := "scalaesh"
 
 version := "1.0"
@@ -10,3 +13,4 @@ libraryDependencies ++= Seq (
   "org.jboss.aesh" % "aesh-extensions" % "0.56"
 )
 
+packageArchetype.java_application
