@@ -1,3 +1,9 @@
+/*
+ * Copyright 2014 EsmerilProgramming
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
 package org.esmerilprogramming.scalaesh
 
 import org.jboss.aesh.console._
