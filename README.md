@@ -3,13 +3,20 @@ scalaesh
 
 Just a scala wrapper to use aesh.
 
-git clone and type:
+clone and type:
 
+```shell
+$ sbt
+```
 
-![Alt 01](https://raw.githubusercontent.com/EsmerilProgramming/scalaesh/master/scalaesh1.png)
+```shell
+$ stage
+```
 
-![Alt 02](https://raw.githubusercontent.com/EsmerilProgramming/scalaesh/master/scalaesh2.png)
+```shell
+$ cd target/universal/stage/bin
+```
 
-![Alt 03](https://raw.githubusercontent.com/EsmerilProgramming/scalaesh/master/scalaesh3.png)
-
-![Alt 04](https://raw.githubusercontent.com/EsmerilProgramming/scalaesh/master/scalaesh4.png)
+```shell
+$ ./scalaesh
+```
