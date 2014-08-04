@@ -10,6 +10,8 @@ import org.jboss.aesh.console._
 import org.jboss.aesh.console.command.registry._
 import org.jboss.aesh.console.settings._
 import org.jboss.aesh.extensions.harlem.aesh.Harlem
+import org.jboss.aesh.extensions.less.aesh.Less
+import org.jboss.aesh.extensions.more.aesh.More
 import org.jboss.aesh.extensions.pwd._
 import org.jboss.aesh.extensions.mkdir._
 import org.jboss.aesh.extensions.rm._
@@ -45,12 +47,14 @@ object ScalaeshApp extends App {
   acr.command(new Matrix());
   acr.command(new Mkdir());
   acr.command(new Echo());
+  acr.command(new More());
+  acr.command(new Less());
   acr.command(new Rm());
 
   val acb = new AeshConsoleBuilder()
   acb.commandRegistry(acr.create());
   acb.settings(sb.create());
-  acb.prompt(new Prompt("[scalaesh@localhost]$ "));
+  acb.prompt(new Prompt("[scalaesh@~]$ "));
   acb.create().start();
 
 }
