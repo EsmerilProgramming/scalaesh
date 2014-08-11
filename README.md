@@ -28,7 +28,7 @@ Rpm package:
 
 
 ```shell
-$ sudo yum install scalaesh
+$ sudo yum install scalaesh-1.0-1.noarch.rpm
 ```
 
 ```shell
