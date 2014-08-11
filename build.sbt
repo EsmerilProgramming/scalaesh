@@ -16,3 +16,21 @@ libraryDependencies ++= Seq (
 )
 
 packageArchetype.java_application
+
+maintainer := "Helio Frota<00hf11@gmail.com>"
+
+packageSummary := "Simple Wrapper for aesh"
+
+packageDescription := """A simple wrapper for aesh and aesh-extensions"""
+
+rpmRelease := "1"
+
+rpmVendor := "EsmerilProgramming"
+
+rpmGroup := Some("Esmeril/Programming")
+
+rpmUrl := Some("http://github.com/EsmerilProgramming")
+
+rpmLicense := Some("Eclipse Public License - v 1.0")
+
+//rpmBrpJavaRepackJars := true
