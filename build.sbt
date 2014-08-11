@@ -5,12 +5,12 @@ name := "scalaesh"
 
 version := "1.0"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.11.0"
 
 exportJars := true
 
 libraryDependencies ++= Seq (
-  "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test",
+  "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test",
   "org.jboss.aesh" % "aesh" % "0.56",
   "org.jboss.aesh" % "aesh-extensions" % "0.56"
 )

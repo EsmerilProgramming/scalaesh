@@ -37,23 +37,23 @@ object ScalaeshApp extends App {
   sb.logging(true);
 
   val acr = new AeshCommandRegistryBuilder();
-  acr.command(new Pwd());
-  acr.command(new Clear());
-  acr.command(new Harlem());
-  acr.command(new Cat());
-  acr.command(new Touch());
-  acr.command(new Cd());
-  acr.command(new Ls());
-  acr.command(new Matrix());
-  acr.command(new Mkdir());
-  acr.command(new Echo());
-  acr.command(new More());
-  acr.command(new Less());
-  acr.command(new Rm());
+  acr.command(classOf[Pwd]);
+  acr.command(classOf[Clear]);
+  acr.command(classOf[Harlem]);
+  acr.command(classOf[Cat]);
+  acr.command(classOf[Touch]);
+  acr.command(classOf[Cd]);
+  acr.command(classOf[Ls]);
+  acr.command(classOf[Matrix]);
+  acr.command(classOf[Mkdir]);
+  acr.command(classOf[Echo]);
+  acr.command(classOf[More]);
+  acr.command(classOf[Less]);
+  acr.command(classOf[Rm]);
 
   val acb = new AeshConsoleBuilder()
-  acb.commandRegistry(acr.create());
-  acb.settings(sb.create());
+  acb.commandRegistry(acr.create);
+  acb.settings(sb.create);
   acb.prompt(new Prompt("[scalaesh@~]$ "));
   acb.create().start();
 
