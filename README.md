@@ -19,7 +19,7 @@ $ cd scalaesh-1.0/bin/
 ```
 
 ```shell
-$ ./scalaaesh
+$ ./scalaesh
 ```
 
 Rpm package:
@@ -32,5 +32,5 @@ $ sudo yum install scalaesh
 ```
 
 ```shell
-$ scalaaesh
+$ scalaesh
 ```
