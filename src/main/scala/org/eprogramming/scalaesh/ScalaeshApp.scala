@@ -37,19 +37,12 @@ object ScalaeshApp extends App {
   sb.logging(true);
 
   val acr = new AeshCommandRegistryBuilder();
-  acr.command(classOf[Pwd]);
-  acr.command(classOf[Clear]);
-  acr.command(classOf[Harlem]);
-  acr.command(classOf[Cat]);
-  acr.command(classOf[Touch]);
-  acr.command(classOf[Cd]);
-  acr.command(classOf[Ls]);
-  acr.command(classOf[Matrix]);
-  acr.command(classOf[Mkdir]);
-  acr.command(classOf[Echo]);
-  acr.command(classOf[More]);
-  acr.command(classOf[Less]);
-  acr.command(classOf[Rm]);
+  // files
+  acr.commands(classOf[Cd], classOf[Ls], classOf[Mkdir], classOf[Pwd], classOf[Rm], classOf[Touch]);
+  // screen
+  acr.commands(classOf[Cat], classOf[Clear], classOf[Echo], classOf[Less], classOf[More]);
+  // crazy
+  acr.commands(classOf[Harlem], classOf[Matrix]);
 
   val acb = new AeshConsoleBuilder()
   acb.commandRegistry(acr.create);

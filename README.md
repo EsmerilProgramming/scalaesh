@@ -1,22 +1,36 @@
 scalaesh
 ========
 
-Just a scala wrapper to use aesh.
+Just a scala wrapper to use [aesh](https://github.com/aeshell/aesh).
 
-clone and type:
+Download:
+--------
+
+Universal package:
+
+[scalaesh-1.0.tgz](https://github.com/EsmerilProgramming/scalaesh/releases/download/1.0/scalaesh-1.0.tgz)
 
 ```shell
-$ sbt
+$ tar xvzf scalaesh-1.0.tgz
 ```
 
 ```shell
-$ stage
+$ cd scalaesh-1.0/bin/
 ```
 
 ```shell
-$ cd target/universal/stage/bin
+$ ./scalaaesh
+```
+
+Rpm package:
+
+[scalaesh-1.0-1.noarch.rpm](https://github.com/EsmerilProgramming/scalaesh/releases/download/1.0/scalaesh-1.0-1.noarch.rpm)
+
+
+```shell
+$ sudo yum install scalaesh
 ```
 
 ```shell
-$ ./scalaesh
+$ scalaaesh
 ```
