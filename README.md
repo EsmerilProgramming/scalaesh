@@ -34,3 +34,24 @@ $ sudo yum install scalaesh-0.56-1.noarch.rpm
 ```shell
 $ scalaesh
 ```
+
+Your own build
+--------------
+
+Setup scala and sbt...
+
+```shell
+$ git clone https://github.com/EsmerilProgramming/scalaesh.git 
+```
+
+```shell
+$ cd scalaesh 
+```
+
+```shell
+$ sbt universal:packageZipTarball
+```
+
+```shell
+$ sbt rpm:packageBin
+```
