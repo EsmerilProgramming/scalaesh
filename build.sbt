@@ -3,7 +3,7 @@ import NativePackagerKeys._
 
 name := "scalaesh"
 
-version := "1.0"
+version := "0.56"
 
 scalaVersion := "2.11.0"
 
