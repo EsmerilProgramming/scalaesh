@@ -8,14 +8,14 @@ Download:
 
 Universal package:
 
-[scalaesh-1.0.tgz](https://github.com/EsmerilProgramming/scalaesh/releases/download/1.0/scalaesh-1.0.tgz)
+[scalaesh-1.0.tgz](https://github.com/EsmerilProgramming/scalaesh/releases/download/0.56/scalaesh-0.56.tgz)
 
 ```shell
-$ tar xvzf scalaesh-1.0.tgz
+$ tar xvzf scalaesh-0.56.tgz
 ```
 
 ```shell
-$ cd scalaesh-1.0/bin/
+$ cd scalaesh-0.56/bin/
 ```
 
 ```shell
@@ -24,11 +24,11 @@ $ ./scalaesh
 
 Rpm package:
 
-[scalaesh-1.0-1.noarch.rpm](https://github.com/EsmerilProgramming/scalaesh/releases/download/1.0/scalaesh-1.0-1.noarch.rpm)
+[scalaesh-0.56-1.noarch.rpm](https://github.com/EsmerilProgramming/scalaesh/releases/download/0.56/scalaesh-0.56-1.noarch.rpm)
 
 
 ```shell
-$ sudo yum install scalaesh-1.0-1.noarch.rpm
+$ sudo yum install scalaesh-0.56-1.noarch.rpm
 ```
 
 ```shell
