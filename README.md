@@ -8,7 +8,7 @@ Download:
 
 Universal package:
 
-[scalaesh-1.0.tgz](https://github.com/EsmerilProgramming/scalaesh/releases/download/0.56/scalaesh-0.56.tgz)
+[scalaesh-0.56.tgz](https://github.com/EsmerilProgramming/scalaesh/releases/download/0.56/scalaesh-0.56.tgz)
 
 ```shell
 $ tar xvzf scalaesh-0.56.tgz
