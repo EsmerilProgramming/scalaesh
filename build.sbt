@@ -29,8 +29,8 @@ rpmVendor := "EsmerilProgramming"
 
 rpmGroup := Some("Esmeril/Programming")
 
-rpmUrl := Some("http://github.com/EsmerilProgramming")
+rpmUrl := Some("http://github.com/aeshell/scalaesh")
 
-rpmLicense := Some("Eclipse Public License - v 1.0")
+rpmLicense := Some("Apache License, Version 2.0")
 
 //rpmBrpJavaRepackJars := true
