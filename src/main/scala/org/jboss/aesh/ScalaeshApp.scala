@@ -15,26 +15,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.esmerilprogramming.scalaesh
+package org.jboss.aesh
 
 import org.jboss.aesh.console._
 import org.jboss.aesh.console.command.registry._
 import org.jboss.aesh.console.settings._
+import org.jboss.aesh.extensions.cat._
+import org.jboss.aesh.extensions.cd._
+import org.jboss.aesh.extensions.clear._
+import org.jboss.aesh.extensions.echo._
 import org.jboss.aesh.extensions.harlem.aesh.Harlem
 import org.jboss.aesh.extensions.less.aesh.Less
+import org.jboss.aesh.extensions.ls._
+import org.jboss.aesh.extensions.matrix._
+import org.jboss.aesh.extensions.mkdir._
 import org.jboss.aesh.extensions.more.aesh.More
 import org.jboss.aesh.extensions.pwd._
-import org.jboss.aesh.extensions.mkdir._
 import org.jboss.aesh.extensions.rm._
-import org.jboss.aesh.extensions.echo._
-import org.jboss.aesh.extensions.matrix._
-import org.jboss.aesh.extensions.cat._
 import org.jboss.aesh.extensions.touch._
-import org.jboss.aesh.extensions.cd._
-import org.jboss.aesh.extensions.ls._
-import org.jboss.aesh.extensions.clear._
-
-import org.jboss.aesh.terminal.{Color, TerminalColor, TerminalString, TestTerminal}
 
 
 /**
@@ -48,12 +46,9 @@ object ScalaeshApp extends App {
   sb.logging(true);
 
   val acr = new AeshCommandRegistryBuilder();
-  // files
-  acr.commands(classOf[Cd], classOf[Ls], classOf[Mkdir], classOf[Pwd], classOf[Rm], classOf[Touch]);
-  // screen
-  acr.commands(classOf[Cat], classOf[Clear], classOf[Echo], classOf[Less], classOf[More]);
-  // crazy
-  acr.commands(classOf[Harlem], classOf[Matrix]);
+  acr.commands(classOf[Cd], classOf[Ls], classOf[Mkdir], classOf[Pwd],
+    classOf[Rm], classOf[Touch],classOf[Cat], classOf[Clear], classOf[Echo],
+    classOf[Less], classOf[More],classOf[Harlem], classOf[Matrix]);
 
   val acb = new AeshConsoleBuilder()
   acb.commandRegistry(acr.create);

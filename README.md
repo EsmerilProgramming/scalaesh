@@ -1,14 +1,14 @@
 scalaesh
 ========
 
-Just a scala wrapper to use [aesh](https://github.com/aeshell/aesh).
+Scala wrapper to use [aesh](https://github.com/aeshell/aesh).
 
 Download:
 --------
 
 Universal package:
 
-[scalaesh-0.56.tgz](https://github.com/EsmerilProgramming/scalaesh/releases/download/0.56/scalaesh-0.56.tgz)
+[scalaesh-0.56.tgz](https://github.com/aeshell/scalaesh/releases/download/0.56/scalaesh-0.56.tgz)
 
 ```shell
 $ tar xvzf scalaesh-0.56.tgz
@@ -24,7 +24,7 @@ $ ./scalaesh
 
 Rpm package:
 
-[scalaesh-0.56-1.noarch.rpm](https://github.com/EsmerilProgramming/scalaesh/releases/download/0.56/scalaesh-0.56-1.noarch.rpm)
+[scalaesh-0.56-1.noarch.rpm](https://github.com/aeshell/scalaesh/releases/download/0.56/scalaesh-0.56-1.noarch.rpm)
 
 
 ```shell
@@ -41,7 +41,7 @@ Your own build
 Setup scala and sbt...
 
 ```shell
-$ git clone https://github.com/EsmerilProgramming/scalaesh.git 
+$ git clone https://github.com/aeshell/scalaesh.git 
 ```
 
 ```shell
