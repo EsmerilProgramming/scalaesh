@@ -17,20 +17,18 @@ libraryDependencies ++= Seq (
 
 packageArchetype.java_application
 
-maintainer := "Helio Frota<00hf11@gmail.com>"
+maintainer := "aesh team"
 
-packageSummary := "Simple Wrapper for aesh"
+packageSummary := "Scala wrapper for aesh"
 
-packageDescription := """A simple wrapper for aesh and aesh-extensions"""
+packageDescription := """Scala wrapper for aesh and aesh-extensions"""
 
 rpmRelease := "1"
 
-rpmVendor := "EsmerilProgramming"
+rpmVendor := "aesh"
 
-rpmGroup := Some("Esmeril/Programming")
+rpmGroup := Some("aeshell/aesh")
 
 rpmUrl := Some("http://github.com/aeshell/scalaesh")
 
 rpmLicense := Some("Apache License, Version 2.0")
-
-//rpmBrpJavaRepackJars := true
