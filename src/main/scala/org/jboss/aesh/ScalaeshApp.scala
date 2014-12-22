@@ -53,7 +53,7 @@ object ScalaeshApp extends App {
   val acb = new AeshConsoleBuilder()
   acb.commandRegistry(acr.create);
   acb.settings(sb.create);
-  acb.prompt(new Prompt("[scalaesh@~]$ "));
+  acb.prompt(new Prompt("[aesh@~]$ "));
   acb.create().start();
 
 }
