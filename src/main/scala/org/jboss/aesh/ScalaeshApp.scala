@@ -33,6 +33,7 @@ import org.jboss.aesh.extensions.mkdir._
 import org.jboss.aesh.extensions.more.aesh.More
 import org.jboss.aesh.extensions.pwd._
 import org.jboss.aesh.extensions.rm._
+import org.jboss.aesh.extensions.mv._
 import org.jboss.aesh.extensions.touch._
 
 
@@ -48,7 +49,7 @@ object ScalaeshApp extends App {
 
   val acr = new AeshCommandRegistryBuilder();
   acr.commands(classOf[Cd], classOf[Ls], classOf[Mkdir], classOf[Pwd],
-    classOf[Rm], classOf[Touch],classOf[Cat], classOf[Clear], classOf[Echo],
+    classOf[Rm], classOf[Touch], classOf[Mv], classOf[Cat], classOf[Clear], classOf[Echo],
     classOf[Less], classOf[More],classOf[Harlem], classOf[Matrix], classOf[Exit]);
 
   val acb = new AeshConsoleBuilder()

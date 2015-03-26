@@ -3,7 +3,7 @@ import NativePackagerKeys._
 
 name := "scalaesh"
 
-version := "0.57-SNAPSHOT"
+version := "0.60-SNAPSHOT"
 
 scalaVersion := "2.11.0"
 
@@ -13,8 +13,8 @@ resolvers += Resolver.mavenLocal
 
 libraryDependencies ++= Seq (
   "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test",
-  "org.jboss.aesh" % "aesh" % "0.57-SNAPSHOT",
-  "org.jboss.aesh" % "aesh-extensions" % "0.57-SNAPSHOT"
+  "org.jboss.aesh" % "aesh" % "0.60-SNAPSHOT",
+  "org.jboss.aesh" % "aesh-extensions" % "0.60-SNAPSHOT"
 )
 
 packageArchetype.java_application
